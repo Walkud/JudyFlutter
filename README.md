@@ -4,9 +4,21 @@
 
 ## 效果图
 
+#### Flutter Android 
+
 首页|发现|热门|我的
 ----|----|---|---
-<img src="./gif/home_page.gif" width="100%">|<img src="./gif/discovery_page.gif" width="100%">|<img src="./gif/hot_page.gif" width="100%">|<img src="./gif/mine_page.gif" width="1000%">
+<img src="./gif/android_home_page.gif" width="100%">|<img src="./gif/android_discovery_page.gif" width="100%">|<img src="./gif/android_hot_page.gif" width="100%">|<img src="./gif/android_mine_page.gif" width="100%">
+
+#### Flutter iOS
+
+首页|发现|热门|我的
+----|----|---|---
+<img src="./gif/ios_home_page.gif" width="100%">|<img src="./gif/ios_discovery_page.gif" width="100%">|<img src="./gif/ios_hot_page.gif" width="100%">|<img src="./gif/ios_mine_page.gif" width="100%">
+
+#### Kotlin 版本
+
+<img src="./gif/JudyKotlinMvpGif.gif" width="30%">
 
 ## 项目结构
 
@@ -64,7 +76,7 @@
 [flutter_swiper](https://pub.dev/packages/flutter_swiper)|轮播组件
 [fluttertoast](https://pub.dev/packages/fluttertoast)| Toast 组件
 [permission_handler](https://pub.dev/packages/permission_handler)|权限组件
-[awsome_video_player](https://pub.dev/packages/awsome_video_player)|视频播放组件
+[awsome\_video\_player](https://pub.dev/packages/awsome_video_player)|视频播放组件
 [video_player](https://pub.dev/packages/video_player)|视频播放组件
 [connectivity](https://pub.dev/packages/connectivity)|当前网络类型检测组件
 [url_launcher](https://pub.dev/packages/url_launcher)|原生 Schema 跳转组件
@@ -109,6 +121,10 @@ flutter pub run build_runner build
 ## 总结
 
 2019年定的目标终于被实现，在项目中最大的收获就是每天坚持前进一点点，把最开始觉得很难完成的任务一点一点的啃完，后续还有很多东西需要去学习，这个项目只是简单的用 Flutter 完成开发，实际项目开发中的很多问题其实并没有遇到，比如原生 Flutter 间路由和集成等问题，加油吧！
+
+## 插曲
+
+在发现 iOS 应用图标不对时，开始就拿 Android 的图标代替，发现图标放在 iOS 上存在黑色背景(-_-)，在完美主义的迫使下，在网上搜索开眼的iOS对应的图标，不搜不知道，一搜网上用 Flutter 仿开眼的开源项目一大堆，两年前就有了，赶紧围观各位大佬的杰作,对比了一圈后发现仿的版本大都不太一样，虽然自己的项目还很多不足，但已经挺满意了，最后还是没有找到当前版本对应的图标，看着不爽就忍忍吧，完美主义得治。
 
 
 ## 声明

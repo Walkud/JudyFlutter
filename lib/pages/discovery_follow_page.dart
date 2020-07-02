@@ -141,7 +141,7 @@ class DiscoveryFollowPageState extends State<DiscoveryFollowPage>
               VideoDetailPage.pushPage(context, subItem);
             },
             child: Container(
-              padding: EdgeInsets.only(top: 10, bottom: 10),
+              padding: EdgeInsets.only(top: 10),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[

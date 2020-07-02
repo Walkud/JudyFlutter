@@ -42,10 +42,11 @@ class DiscoveryCategoryPageState extends State<DiscoveryCategoryPage>
 
   @override
   Widget build(BuildContext context) {
+    MediaQueryData mq = MediaQuery.of(context);
     return LoadingContainer(
         isLoading: _isLoading,
         child: GridView.builder(
-            padding: EdgeInsets.only(top: 2, bottom: 57),
+            padding: EdgeInsets.only(top: 4, bottom: 4 + mq.padding.bottom),
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
                 crossAxisSpacing: 4,
@@ -60,8 +61,9 @@ class DiscoveryCategoryPageState extends State<DiscoveryCategoryPage>
   Widget _buildItem(BuildContext context, int index) {
     CategoryBean categoryBean = categoryBeans[index];
     return GestureDetector(
-      onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (BuildContext context){
+      onTap: () {
+        Navigator.push(context,
+            MaterialPageRoute(builder: (BuildContext context) {
           return CategoryDetailPage(categoryBean);
         }));
       },
@@ -77,9 +79,7 @@ class DiscoveryCategoryPageState extends State<DiscoveryCategoryPage>
                   image: categoryBean.bgPicture,
                   fit: BoxFit.fill,
                 ),
-                Container(
-                  decoration: BoxDecoration(color: Color(0x30000000))
-                ),
+                Container(decoration: BoxDecoration(color: Color(0x30000000))),
                 Center(
                   child: Text("#${categoryBean.name}",
                       style: TextStyle(
