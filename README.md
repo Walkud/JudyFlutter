@@ -153,7 +153,7 @@ flutter pub run build_runner build
 
 ## 问题记录
 
-* 播放组件在 iOS 平台上存在 Bug，一直 Loadding，加载不出视频，组件本身Bug，待组件更新
+* 播放组件在 iOS 平台上存在 Bug，一直 Loadding，加载不出视频，组件本身Bug，待组件更新或者也可以用别的组件替代。
 
 ## 总结
 
