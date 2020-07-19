@@ -6,19 +6,33 @@
 
 #### Flutter Android 
 
-首页|发现|热门|我的
-----|----|---|---
-<img src="./gif/android_home_page.gif" width="100%">|<img src="./gif/android_discovery_page.gif" width="100%">|<img src="./gif/android_hot_page.gif" width="100%">|<img src="./gif/android_mine_page.gif" width="100%">
+<img src="./gif/android_home_page.gif" width="20%">
 
-#### Flutter iOS
+<!--#### Flutter Android 
 
 首页|发现|热门|我的
 ----|----|---|---
-<img src="./gif/ios_home_page.gif" width="100%">|<img src="./gif/ios_discovery_page.gif" width="100%">|<img src="./gif/ios_hot_page.gif" width="100%">|<img src="./gif/ios_mine_page.gif" width="100%">
+<img src="./gif/android_home_page.gif" width="100%">|<img src="./gif/android_discovery_page.gif" width="100%">|<img src="./gif/android_hot_page.gif" width="100%">|<img src="./gif/android_mine_page.gif" width="100%">-->
+
+<!--#### Flutter iOS
+
+首页|发现|热门|我的
+----|----|---|---
+<img src="./gif/ios_home_page.gif" width="100%">|<img src="./gif/ios_discovery_page.gif" width="100%">|<img src="./gif/ios_hot_page.gif" width="100%">|<img src="./gif/ios_mine_page.gif" width="100%">-->
 
 #### Kotlin 版本
 
-<img src="./gif/JudyKotlinMvpGif.gif" width="30%">
+<img src="./gif/JudyKotlinMvpGif.gif" width="20%">
+
+## 下载安装
+
+#### Android
+
+![Android 二维码](https://www.pgyer.com/app/qrcode/nhuz)
+
+#### iOS 
+
+请自行 clone 项目编译运行。
 
 ## 项目结构
 
